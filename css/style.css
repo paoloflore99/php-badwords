@@ -1,0 +1,55 @@
+.sfondo {
+    background-image: url(../css/img/1328245.jpeg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container:hover {
+    background: rgba(0, 0, 0, 0.5);
+    transition: 1s;
+}
+
+input {
+    background-color: transparent;
+    border: 2px solid rgb(230, 0, 230);
+}
+
+
+.container {
+    width: 800px;
+    padding: 30px;
+    transition: 2s;
+    background: rgba(0, 0, 0, 0.2);
+    
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid rgb(209, 209, 209);
+    transition: 1s;
+    color: white;
+    /* background-color: rgb(230, 0, 230); */
+}
+
+button:hover {
+    /* background-color: rgb(230, 0, 230); */
+    transition: 1s;
+}
+
+
+.padding-mio {
+    padding: 20px;
+}
+
+.padding-meno {
+    margin-top: 1rem;
+}
+
+input {
+    color: white;
+}
+
