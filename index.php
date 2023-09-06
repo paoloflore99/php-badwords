@@ -2,6 +2,7 @@
 
 $invio = 'invia i tui dati';
 
+
 ?>
 
 
@@ -35,24 +36,27 @@ $invio = 'invia i tui dati';
         <div class="container rounded-3 text-white">
             <div class="row ">
 
-            <div class="d-flex padding-mio">
-                <input type="text" class="p-2 container-fluid" type="name" placeholder="Name*">
-                <div class="mx-2"></div>
-                <input type="text" class="p-2 container-fluid" type="cognome" placeholder="Cognome*">
+            <div>
+                <form class="d-flex padding-mio" action="" method="post">
+                    <input type="text" class="p-2 container-fluid" type="name"  placeholder="Name*">
+                    <div class="mx-2"></div>
+                    <input type="text" class="p-2 container-fluid" type="cognome" placeholder="Cognome*">
+                </form>
             </div>
 
-            <div class="d-flex padding-mio">
-                <input type="text" class="p-2 container-fluid" type="Email" placeholder="Email*">
-                <div class="mx-2"></div>
-                <input type="text" class="p-2 container-fluid" type="date"  placeholder="date(">
+            <div>
+                <form class="d-flex padding-mio" action="" method="post">
+                    <input type="text" class="p-2 container-fluid" type="email" placeholder="Email*">
+                    <div class="mx-2"></div>
+                    <input type="text" class="p-2 container-fluid" type="date"  placeholder="date">
+                </form>
             </div>
 
-            <div class="padding-mio">
-                <input class="input-inero container-fluid p-2 input-elp" type="text">
-                <div>
-
-                </div>
-                <button class="container-fluid padding-meno p-2" ><?php echo $invio ?></button>
+            <div>
+                <form class="padding-mio" action="" method="help">
+                    <input class="input container-fluid p-2 input-help" type="text">
+                    <button class="container-fluid padding-meno p-2" ><?php echo $invio ?></button>
+                </form>
             </div>
 
             </div>
