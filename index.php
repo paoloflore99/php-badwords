@@ -1,20 +1,10 @@
 <?php
-
 $invio = 'invia i tui dati';
-
-
-
-
 ?>
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-
     <head>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
         <meta charset="UTF-8">
@@ -24,7 +14,6 @@ $invio = 'invia i tui dati';
         <link rel="stylesheet" href="./css/style.css"><!--css-->
         <title>Php-Badwords</title>
     </head>
-
 <body>
     <div class="sfondo ">
         <div class="container rounded-3 text-white">
