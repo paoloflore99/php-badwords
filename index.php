@@ -33,7 +33,8 @@ $invio = 'invia i tui dati';
                     </div>
 
                     <div class="padding-mio">
-                        <input class="input container-fluid p-2 input-help" name="text" type="text">
+                        <!-- <input class="input container-fluid p-2 input-help" name="text" type="text"> -->
+                        <textarea name="text" id="" cols="30" rows="10" class="form-control mio"></textarea>
                         <button class="container-fluid padding-meno p-2"><?php  echo  $invio?></button>
                     </div>
                 </form>

@@ -20,7 +20,9 @@
 //fare una condizzione ?
 var_dump($_POST);             //sarebbel il consol.log() in php
 $nome_completo =  $_POST ['name'] . ' ' . $_POST ['cognome'] ; //contatenazione di 2 variabbili
-
+$il_nome = $_POST ['name'];
+$testo = $_POST['text'] ?? null;
+$filtro = str_replace($il_nome, '***', $testo);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -39,7 +41,7 @@ $nome_completo =  $_POST ['name'] . ' ' . $_POST ['cognome'] ; //contatenazione 
             <ul>
                 <li>ciao <?php echo $nome_completo ?></li>
                 <li>ciao <?php echo $_POST['cognome'] . ' ' . $_POST['name'] ?></li>
-                <li><?php echo  $_POST['text'] ?></li><!--cosi per stampare nel html i dati del alro html-->
+                <li><?php echo  $filtro ?></li><!--cosi per stampare nel html i dati del alro html-->
             </ul>
         </div>
     </div>

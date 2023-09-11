@@ -56,3 +56,7 @@ input {
     width: 100%;
     
 }
+.mio {
+    background-color: transparent;
+    border: 2px solid rgb(230, 0, 230);
+}
